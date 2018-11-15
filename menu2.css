@@ -1,0 +1,190 @@
+*{
+	box-sizing: border-box;
+	margin: auto;
+}
+body{
+	font-family: roboto;
+}
+#avatar img{ 
+	width: 150px;
+	margin: auto;
+	display: block;
+}
+#real-menu ul{
+	background: #e9ebee;
+	width: 250px;
+	list-style-type: none;
+	padding: 0;
+	font-family: arial
+}
+#real-menu ul li{
+	width: auto;
+	height: 40px;
+	padding: 0 1em;
+	line-height: 39px;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+#real-menu ul li a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+#real-menu ul li:hover{
+	background: #c1c6cb
+}
+#real-menu i{
+	font-size: 16px
+}
+#menu > div:first-child {
+	position: relative;
+}
+#menu .sub-menu{
+	position: absolute;
+	left: 250px;
+	top: 0;
+	display: none;
+}
+#menu .sub-menu a{
+	border-bottom: 1px solid black;
+}
+#menu ul li:hover .sub-menu{
+	display: block;
+}
+#banner img{
+	width: 100%;
+	
+}
+#grid{
+	display: grid;
+	grid-template-columns: 300px 1fr;
+}
+#chinhsach{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 90px;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	text-align: center;
+	line-height: 0.9;
+	width: 100%;
+}
+.chinhsach1{
+	width: 320px;
+	height: 90px;
+	padding: 21px
+}
+.chinhsach2{
+	height: 90px;
+	width: 320px;
+	border-left:1px solid grey; 
+	border-right: 1px solid grey;
+	padding: 21px
+}
+.chinhsach3{
+	height: 90px;
+	width: 320px;
+	border-right: 1px solid grey;	
+	padding: 21px
+}
+.chinhsach4{
+	height: 90px;
+	width: 320px;
+	padding: 21px
+}
+h1{
+	text-align: center;
+	margin-top: 30px
+}
+#galleries-first img{
+	width: 300px;
+	height: 300px;
+	padding: 35px;
+	margin-top: -20px;
+
+}
+#galleries-first {
+	text-align: center;
+}
+#galleries-second img{
+	width: 300px;
+	height: 300px;
+	padding: 35px;
+}
+#galleries-second {
+	text-align: center;
+}
+#galleries-third img{
+	width: 300px;
+	height: 300px;
+	padding: 35px;
+}
+#galleries-third {
+	text-align: center;
+}
+#galleries-fourth img{
+	width: 300px;
+	height: 300px;
+	padding: 35px;
+}
+#galleries-fourth {
+	text-align: center;
+}
+#hover-effect:hover{
+	opacity: .5;
+}
+#footer{
+	background-color: #181818;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#footer h3{
+	color: #fff;
+	text-align: center;
+}
+#footer div{
+	margin-top: 35px;
+	margin-bottom: 35px;
+	display: inline-block;
+	line-height: 25px
+}
+.footer1 p{
+	color: #c0bfbf;
+	line-height: 40px;
+}
+.footer2 p{
+	color: #c0bfbf
+}
+.footer3 p{
+	color: #c0bfbf
+}
+#guimail {
+	background: #ed1c24;
+	width: 55px;
+    height: 25px;
+    color: #fff;
+    font-family: arial;
+    border: none;
+    float: right;
+    outline: none;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+}
+#contact {
+	display: inline-block;
+	color: #6f6f6f;
+}
+#neo a img{
+	max-width: 50px;
+	position: fixed;
+	z-index: 998;
+	bottom: 35px;
+	right: 43px
+}
+#neo:hover{
+	opacity: .5;
+	z-index: 998
+}
