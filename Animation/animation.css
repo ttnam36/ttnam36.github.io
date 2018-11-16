@@ -1,0 +1,150 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%
+}
+body{
+	font-family: "open sans";
+}
+.wrap{
+	margin: auto;
+	max-width: 1100px
+}
+.banner span{
+	font-size: 3.9em;
+	line-height: 1.5em;
+	letter-spacing: 3.5px;
+	font-weight: bold;
+	height: 100%;
+}
+.banner{
+	text-align: center;
+	margin: 15px 0;
+	background: linear-gradient(135deg, #723362, #9d223c);
+    overflow: hidden;
+    color: white;
+    box-sizing: border-box;
+}
+.banner-effect{
+	text-shadow: 0px 0px 3px white;
+}
+.banner-effect:nth-child(1) {
+        -webkit-animation: fade 4s infinite 200ms;
+        animation: fade 4s infinite 200ms;
+}
+.banner-effect:nth-child(2) {
+        -webkit-animation: fade 4s infinite 400ms;
+        animation: fade 4s infinite 400ms;
+ }
+.banner-effect:nth-child(3) {
+        -webkit-animation: fade 4s infinite 600ms;
+        animation: fade 4s infinite 600ms;
+ }
+.banner-effect:nth-child(4) {
+        -webkit-animation: fade 4s infinite 800ms;
+        animation: fade 4s infinite 800ms;
+}
+.banner-effect:nth-child(5) {
+        -webkit-animation: fade 4s infinite 1000ms;
+        animation: fade 4s infinite 1000ms;
+}
+.banner-effect:nth-child(6) {
+        -webkit-animation: fade 4s infinite 1200ms;
+        animation: fade 4s infinite 1200ms;
+}
+.banner-effect:nth-child(7) {
+        -webkit-animation: fade 4s infinite 1400ms;
+        animation: fade 4s infinite 1400ms;
+}
+.banner-effect:nth-child(8) {
+        -webkit-animation: fade 4s infinite 1600ms;
+        animation: fade 4s infinite 1600ms;
+}
+@-webkit-keyframes fade {
+        50% {
+            opacity: 0.03;
+        }
+}
+  @keyframes fade {
+        50% {
+            opacity: 0.03;
+        }
+}
+.col{
+	padding: 10px 15px;
+	position: relative;
+	width: 210px;
+	height: 210px;
+	display: block;
+	margin: auto;
+}
+.flex1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex2{
+	display: flex;
+	flex-wrap: wrap;
+}
+.thumb{
+	padding: 3px;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+.thumb img{
+	vertical-align: middle; 
+}
+.first:hover{
+	transform: translate(0,-5px);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+	opacity: 0.8;
+	transition: transform 0.25s linear
+}
+.second:hover{
+	transform: translate(0,-5px);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+	opacity: 0.8;
+	transition: transform 0.25s linear
+}
+h4{
+	float: right;
+  text-align: center;
+	position: relative;
+	animation: fadeInLeft 6s cubic-bezier(0.91, 0.9, 0.27, 1.01) infinite;
+	animation-delay: 2s;
+  display: inline-block;
+}
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 1;
+    -webkit-transform: translate3d(-90%, 0, 0);
+    transform: translate3d(-90%, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 1;
+    -webkit-transform: translate3d(-90%, 0, 0);
+    transform: translate3d(-90%, 0, 0);
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
