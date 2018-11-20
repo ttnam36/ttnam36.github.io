@@ -1,0 +1,132 @@
+html,body{
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+*{
+	box-sizing: border-box;
+}
+.background img{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0
+}
+.wishes img{
+	width: 40vw;
+	position: fixed;
+	z-index: 998;
+	top: 80px;
+	left: 410px;
+	animation: wishes 0.2s linear infinite alternate;
+}
+@keyframes wishes{
+	from { 
+		opacity: 1;
+		-webkit-opacity: 1;
+		width: 40vw;
+	}
+	to {
+		opacity: 0.7;
+		-webkit-opacity: 0.7;
+		width: 40.1vw
+	}
+}
+
+.santa img{
+	position: fixed;
+	top: 440px;
+	left: 0;
+	z-index: 997;
+	width: 20vw;
+	bottom: -100px;
+	left: 690px;
+	display: inline-block;
+	animation: santa 4.5s linear infinite alternate;
+}
+@keyframes santa{
+	from { 
+		transform: translate3d(0, 0, 0); 
+		-webkit-transform: translate3d(0, 0, 0);
+	}
+	to { 
+		transform: translate3d(-95%, 0, 0); 
+		-webkit-transform: translate3d(-95%, 0, 0);
+	}
+}
+embed{
+	visibility: hidden;
+}
+
+.snow-container{
+	position:fixed;
+	width:100%;
+	max-width:100%;
+	z-index:99999;
+	pointer-events:none;
+	overflow:hidden;
+	top:0;
+	height:100%
+}
+.snow{
+	display:inline-block;
+	position:absolute;
+	z-index:2;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	pointer-events:none;
+	-webkit-transform:translate3d(0,-100%,0);
+	transform:translate3d(0,-100%,0);
+	-webkit-animation:snow linear infinite;
+	animation:snow linear infinite
+}
+.snow.foreground{
+	background-image:url("snow-large.png");
+	-webkit-animation-duration:15s;
+	animation-duration:10s
+}
+.snow.foreground.layered{
+	-webkit-animation-delay:7.5s;
+	animation-delay:7.5s
+}
+.snow.middleground{background-image:url(snow-medium.png);
+	-webkit-animation-duration:20s;
+	animation-duration:15s
+}
+.snow.middleground.layered{
+	-webkit-animation-delay:10s;
+	animation-delay:10s
+}
+.snow.background{background-image:url(snow-small.png);
+	-webkit-animation-duration:25s;
+	animation-duration:20s
+}
+.snow.background.layered{
+	-webkit-animation-delay:12.5s;
+	animation-delay:12.5s
+}
+@-webkit-keyframes snow{
+	0%{
+		-webkit-transform:translate3d(0,-100%,0);
+		transform:translate3d(0,-100%,0)
+		}
+	100%{
+		-webkit-transform:translate3d(5%,100%,0);
+		transform:translate3d(5%,100%,0)}
+	}
+@keyframes snow{
+	0%{
+		-webkit-transform:translate3d(0,-100%,0);
+		transform:translate3d(0,-100%,0)
+		}
+	100%{
+		-webkit-transform:translate3d(5%,100%,0);
+		transform:translate3d(5%,100%,0)}
+	}
+
