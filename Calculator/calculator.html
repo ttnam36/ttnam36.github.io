@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+		<div class="banner">
+			<span class="banner-effect">C</span>
+			<span class="banner-effect">A</span>
+			<span class="banner-effect">L</span>
+			<span class="banner-effect">C</span>
+			<span class="banner-effect">U</span>
+			<span class="banner-effect">L</span>
+			<span class="banner-effect">A</span>
+			<span class="banner-effect">T</span>
+			<span class="banner-effect">O</span>
+			<span class="banner-effect">R</span>
+		</div>
+	<div class="container">
+		<div 
+  			id="result">
+  		</div>
+
+  		<div class="numbers-container">
+		    <button class="number press" onclick="del()" value="AC"> AC </button>
+		    <button class="number press" onclick="square()" value="x²"> x² </button>
+		    <button class="number press" onclick="squareRoot()" value="√"> √ </button>
+		    <button class="number press" onclick="press(this)" value="/"> &#247; </button>
+
+		    <button class="number" onclick="press(this)" value="7"> 7 </button>
+		    <button class="number" onclick="press(this)" value="8"> 8 </button>
+		    <button class="number" onclick="press(this)" value="9"> 9 </button>
+		    <button class="number press" onclick="press(this)" value="*"> &#215; </button>
+
+		    <button class="number" onclick="press(this)" value="4"> 4 </button>
+		    <button class="number" onclick="press(this)" value="5"> 5 </button>
+		    <button class="number" onclick="press(this)" value="6"> 6 </button>
+		    <button class="number press" onclick="press(this)" value="-"> &#8722; </button>
+
+		    <button class="number" onclick="press(this)" value="1"> 1 </button>
+		    <button class="number" onclick="press(this)" value="2"> 2 </button>
+		    <button class="number" onclick="press(this)" value="3"> 3 </button>
+		    <button class="number press" onclick="press(this)" value="+"> &#43; </button>
+
+		    <button class="number" onclick="press(this)" value="0"> 0 </button>
+		    <button class="number" onclick="percent()" value="%"> % </button>
+		    <button class="number" onclick="press(this)" value="."> . </button>
+		    <button class="number press" onclick="ketQua()" value=""> = </button>
+		</div>
+	</div>
+
+	<script>
+		const result = document.getElementById('result');
+		function press(button) {
+			result.textContent += button.value
+		}
+		function del() {
+			result.textContent = ''
+		}
+		function ketQua() {
+			result.textContent = eval(result.textContent)
+		}
+		function square() {
+			result.textContent = Math.pow(eval(result.textContent), 2)
+		}
+		function squareRoot() {
+			result.textContent = Math.sqrt(eval(result.textContent))
+		}
+		function percent() {
+			result.textContent = eval(result.textContent)/100
+		}
+	</script>
+</body>
+</html>
