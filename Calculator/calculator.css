@@ -30,6 +30,7 @@ body {
   color: #fcfcfc;
   overflow: hidden;
   border-bottom: solid 0.4px #191919;
+  padding-left: 7px
 }
 .container .numbers-container {
   display: flex;
