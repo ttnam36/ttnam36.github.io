@@ -30,10 +30,14 @@ body {
   color: #fcfcfc;
   overflow: hidden;
   border-bottom: solid 0.4px #191919;
+<<<<<<< HEAD
   padding: 20px 7px;
   border-top: 2.8px double black;
   border-left: 2.8px double black;
   border-right: 2.8px double black
+=======
+  padding-left: 8px
+>>>>>>> e1e7ea9ee2d606b638b574c3e2632c57efd650ca
 }
 .container .numbers-container {
   display: flex;
