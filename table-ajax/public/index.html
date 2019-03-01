@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="table.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Bảng thông tin hotgirl</h1>
+    <div id="wrap">
+        <div class="container-2">
+            <a href="http://localhost:3000/createUsers.html" class="hvr-buzz">
+                <span class="icon-create"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                <input type="button" name="comments" value="Create Users"/>
+            </a>
+        </div>
+        <div class="search-box">
+                    <div class="container-1">
+                        <span class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></span>
+                        <input type="search" id="search" placeholder="Tìm kiếm hotgirl" />
+                        <span class="icon-micro"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+        <div class="relative">
+            <table id="myTable" >
+                <thead>
+                    <tr>
+                        <th id="name" onclick="sortTable(0)">Name<img id="icon1" class="icon" src="img/sort-arrows-couple-pointing-up-and-down.png"
+                            alt=""></th>
+                            <th id="gender" onclick="sortTable(1)">Gender<img id="icon2" class="icon" src="img/sort-arrows-couple-pointing-up-and-down.png"
+                                alt=""></th>
+                                <th id="email" onclick="sortTable(2)">Email<img id="icon3" class="icon" src="img/sort-arrows-couple-pointing-up-and-down.png"
+                                    alt=""></th>
+                                    <th id="phone" onclick="sortTable(3)">Phone<img id="icon4" class="icon" src="img/sort-arrows-couple-pointing-up-and-down.png"
+                                        alt=""></th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                    crossorigin="anonymous">
+                </script>
+
+                <script src='script.js'></script>
+            </body>
+
+            </html>

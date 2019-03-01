@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Tran Trung Nam",
+      "gender": "",
+      "email": "",
+      "phone": "",
+      "id": 1
+    },
+    {
+      "name": "",
+      "gender": "",
+      "email": "",
+      "phone": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "gender": "",
+      "email": "",
+      "phone": "",
+      "id": 3
+    }
+  ]
+}
