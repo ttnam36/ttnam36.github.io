@@ -167,7 +167,7 @@
 	line-height: 34px;
 	text-align: center;
 	color: #7E8085;
-	width: 60%;
+	width: 63%;
     margin: auto;
 }
 .tab-title{
@@ -187,10 +187,26 @@
 	font-size: 21px;
 	text-align: center;
 	color: #2C2E30;
+	margin-bottom: 14px
 }
 .tab-policy .policy-flex div{
 	width: 43px;
 	margin: auto;
+	height: 43px
+}
+.tab-policy .flex-first{
+	padding-left: 13vw
+}
+.tab-policy .flex-third{
+	padding-right: 13vw
+}
+.line-fake div{
+	width: 69vw;
+	margin: auto;
+}
+.line-fake div img{
+	width: 100%;
+	margin-left: 1vw
 }
 @media screen and (max-width: 992px) {
 	.tab .tab-title p:nth-child(2){
@@ -198,5 +214,14 @@
 	}
 	.tab-policy .policy-flex{
 		width: 100%
+	}
+	.tab-policy .flex-first{
+		padding-left: 0
+	}
+	.tab-policy .flex-third{
+		padding-right: 0
+	}
+	.line-fake{
+		display: none;
 	}
 }
