@@ -149,3 +149,11 @@
 		margin-top: 5px
 	}
 }
+/*---------- Section ----------*/
+.tab .tab-title p:nth-child(1){
+	font-family: Aileron;
+	font-weight: bold;
+	font-size: 34px;
+	text-align: center;
+	color: #2C2E30;
+}
