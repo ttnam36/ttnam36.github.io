@@ -140,6 +140,9 @@
 	margin-top: 10.5vh
 }
 @media screen and (max-width: 992px) {
+	.text-content p:nth-child(1){
+		margin-top: 10vh
+	}
 	.text-content p:nth-child(2){
 		width: 70%
 	}
@@ -209,6 +212,9 @@
 	margin-left: 1vw
 }
 @media screen and (max-width: 992px) {
+	.tab .tab-title{
+		margin-top: 11vh
+	}
 	.tab .tab-title p:nth-child(2){
 		width: 75%
 	}
