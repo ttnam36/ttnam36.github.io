@@ -176,6 +176,7 @@
 .tab-policy{
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 10vh
 }
 .tab-policy .policy-flex{ 
 	width: 33.33333333333%
