@@ -218,8 +218,13 @@
 	.tab .tab-title p:nth-child(2){
 		width: 75%
 	}
+	.tab-policy{
+		margin-top: 6vh
+	}
 	.tab-policy .policy-flex{
-		width: 100%
+		width: 100%;
+		padding-top: 1vh;
+		padding-bottom: 1vh
 	}
 	.tab-policy .flex-first{
 		padding-left: 0
