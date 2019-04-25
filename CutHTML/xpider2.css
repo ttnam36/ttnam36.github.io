@@ -228,7 +228,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 5vw 0 5vw;
-	margin-top: 27px
+	margin-top: 4.5vh
 }
 .content-tab{
 	margin: auto;
@@ -272,7 +272,8 @@
 		width: 100%
 	}
 	.tab-end .tab-end-content{
-		width: 100%
+		width: 100%;
+		padding-top: 4vh
 	}
 	.content-tab{
 		width: 88%
