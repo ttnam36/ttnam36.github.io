@@ -217,12 +217,14 @@
 	font-size: 28px;
 	line-height: 34px;
 	color: #2C2E30;
+	padding-bottom: 4vh
 }
 .tab-end .tab-end-content p{
 	font-family: Aileron;
 	font-size: 16px;
 	line-height: 28px;
 	color: #54565A;
+	padding-bottom: 2vh
 }
 .tab-end{
 	display: flex;
@@ -230,12 +232,34 @@
 	padding: 0 5vw 0 5vw;
 	margin-top: 4.5vh
 }
-.content-tab{
+.content-tab-first{
 	margin: auto;
     width: 80%;
+    padding-bottom: 2.5vh;
+    border-bottom: 1px solid #E7EAEE;
+}
+.content-tab-second{
+	margin: auto;
+	width: 80%;
+	padding-top: 28px
+}
+.content-tab-second p:nth-child(1){
+	font-family: Noto Serif;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 28px;
+	color: #54565A;
+}
+.content-tab-second p:nth-child(2){
+	font-family: Aileron;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #2C2E30;
 }
 .tab-end .tab-end-img{
 	width: 50%;
+	margin: auto;
 }
 .tab-end .tab-end-img img{
 	max-width: 100%
@@ -269,13 +293,10 @@
 		display: none;
 	}
 	.tab-end .tab-end-img{
-		width: 100%
+		width: 71%;
 	}
 	.tab-end .tab-end-content{
 		width: 100%;
 		padding-top: 4vh
-	}
-	.content-tab{
-		width: 88%
 	}
 }
