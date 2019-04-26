@@ -231,7 +231,7 @@
 .tab-end{
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 5vw 19vh 5vw;
+	padding: 0 5vw 18vh 5vw;
 	margin-top: 4.5vh
 }
 .content-tab-first{
@@ -306,8 +306,7 @@
 /*---------- Section 2 -----------*/
 .how{
 	background-color: #F6F8F9;
-	padding-top: 15vh;
-	height: 1500px
+	padding-top: 14vh;
 }
 .how .how-title h1{
 font-family: Aileron;
@@ -365,11 +364,67 @@ font-size: 16px;
 line-height: 28px;
 text-align: center;
 color: #7E8085;
-    margin-bottom: 18vh;
+    margin-bottom: 16vh;
 
 }
 .stre-right{
 	padding-top: 55px
+}
+.how-end{
+	display: flex;
+	flex-wrap: wrap;
+	    padding-left: 3vw;
+	    padding-bottom: 18vh
+}
+.how-end .how-end-size{
+	width: 50%
+}
+.how-end .how-end-size img{
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+.how-end .how-end-size h1{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #2C2E30;
+    margin-bottom: 4.5vh;
+
+}
+.how-end .how-end-size p{
+	font-family: Aileron;
+font-size: 16px;
+line-height: 28px;
+color: #54565A;
+}
+.how-end-size .right-size{
+	width: 77%
+}
+.how-end-right {
+	    padding-left: 7.5vw;
+}
+.right-size .right-size-img{
+	display: flex;
+	margin-top: 3vh;
+	margin-bottom: 3vh
+}
+.right-size .right-size-img div{
+	padding-right: 1vw
+}
+.right-size a{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+color: #2F5BEA;
+}
+.how-end-left{
+	padding-top: 18vh
+}
+.how-end-right{
+	padding-top: 22vh
 }
 @media screen and (max-width: 992px) {
 	.how-img{
@@ -391,4 +446,229 @@ color: #7E8085;
 	.stre-right{
 		display: none;
 	}
+	.how-end .how-end-size{
+		width: 100%
+	}
+	.how-end{
+		padding-right: 3vw;
+		padding-bottom: 11vh
+	}
+	.how-end-left{
+		padding-top: 11vh
+	}
+	.how-end-right {
+    padding-top: 6vh;
+    padding-right: 7.5vw
+	}
+}
+
+/*---------- Testimonial ----------*/
+.testimonial{
+	background-image: url('oval.png');
+	background-repeat: no-repeat;
+	background-position: 12vw top;
+	background-size: 45%;
+	padding-bottom: 15.5vh
+}
+.testimonial-head-left h1{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+color: #2C2E30;
+margin-bottom: 6vh
+}
+.testimonial-head-left p{
+font-family: Aileron;
+font-size: 16px;
+line-height: 28px;/* or 175% */
+color: #54565A;
+    margin-bottom: 8vh;
+}
+.testimonial-head-left a{
+font-family: Aileron;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+color: #2F5BEA;
+}
+.testimonial-head{
+	display: flex;
+	flex-wrap: wrap;
+	    padding-left: 11vw;
+    padding-right: 11vw;
+}
+.testimonial-size{
+	width: 50%
+}
+.testimonial-head-right{
+	padding-top: 18vh
+}
+.testimonial-head-right img{
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+.testimonial-head-left{
+	padding-top: 22vh
+}
+.head-content{
+	width: 82%
+}
+.testimonial-middle-title h1{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+color: #2C2E30;
+margin-bottom: 2.5vh
+}
+.testimonial-middle-title p{
+	font-family: Aileron;
+font-weight: 600;
+font-size: 18px;
+line-height: 34px;/* or 189% */
+text-align: center;
+color: #7E8085;
+}
+.testimonial-middle-img{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 7vw;
+	padding-right: 7vw;
+	    margin-top: 8vh;
+}
+.testimonial-middle-img a{
+font-family: Aileron;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+margin: auto;
+color: #2F5BEA;
+margin-top: 5vh
+}
+.middle-img-size{
+	width: 33.33333%;
+}
+.middle-img-size img{
+	display: block;
+	margin: auto;
+	max-width: 100%
+}
+.brands {
+	margin-top: 15vh
+}
+.brands img{
+	display: block;
+	margin: auto;
+}
+@media screen and (max-width: 992px) {
+	.testimonial-size{
+	width: 100%
+	}
+	.testimonial-head-left{
+	padding-top: 10vh
+	}
+	.testimonial-head-right{
+	padding-top: 9vh
+	}
+	.testimonial-head-left h1{
+		margin-bottom: 4vh
+	}
+	.testimonial-head-left p{
+		margin-bottom: 5vh
+	}
+	.testimonial-head{
+		padding-left: 10.5vw;
+		padding-right: 10.5vw
+	}
+	.head-content{
+		width: 100%
+	}
+	.middle-img-size{
+	width: 100%;
+	margin-bottom: 1vh
+	}
+	.brands{
+		display: none;
+	}
+}
+/*---------- Price ----------*/
+.price{
+background-color: #F6F8F9;
+padding-bottom: 15vh
+}
+.price-title h1{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+color: #2C2E30;
+margin-bottom: 2.5vh;
+padding-top: 15vh;
+}
+.price-title p{
+	font-family: Aileron;
+font-weight: 600;
+font-size: 18px;
+line-height: 34px;
+text-align: center;
+color: #7E8085;
+    width: 43%;
+    margin: auto;
+}
+.price-img{
+	display: flex;
+	flex-wrap: wrap;
+}
+.price-img-size{
+	width: 50%;
+	    padding: 2vw;
+}
+.price-img-size img{
+	display: block;
+	
+	max-width: 100%
+}
+.price-img-left img{
+	float: right;
+}
+.price-end p{
+	font-family: Aileron;
+font-size: 18px;
+line-height: 34px;
+text-align: center;
+color: #7E8085;
+}
+.price-end{
+font-family: Aileron;
+font-weight: bold;
+font-size: 18px;
+line-height: 34px;
+text-align: center;
+color: #2C2E30;
+margin-top: 2.5vh
+}
+@media screen and (max-width: 992px){
+	.price-title p{
+		width: 80%
+	}
+	.price-img-size{
+		width: 100%
+	}
+	.price-img-left img{
+		float: none;
+	}
+	.price-img-size img{
+		margin: auto;
+	}
+}
+/*---------- CTA ----------*/
+.CTA{
+	background-image: url('Group 2.png');
+		background-repeat: no-repeat;
+	background-position: 12vw top;
+	padding-bottom: 15.5vh
 }
