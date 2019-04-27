@@ -588,7 +588,7 @@
 	}
 	.middle-img-size{
 		width: 100%;
-		margin-bottom: 1vh
+		margin-bottom: 2.5vh
 	}
 	.brands{
 		display: none;
@@ -618,6 +618,7 @@
 	color: #7E8085;
 	width: 43%;
 	margin: auto;
+	padding-bottom: 5vh;
 }
 .price-img{
 	display: flex;
