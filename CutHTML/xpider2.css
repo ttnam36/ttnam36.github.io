@@ -65,7 +65,7 @@
 	.nav-link{
 		padding: 10px 0 10px 0!important
 	}
-		.form-inline{
+	.form-inline{
 		display: none
 	}
 	.login{
@@ -90,7 +90,7 @@
 	color: #7E8085;
 	line-height: 34px;
 	width: 45%;
-    margin: auto;
+	margin: auto;
 }
 .input{
 	margin-top: 6vh
@@ -171,7 +171,7 @@
 	text-align: center;
 	color: #7E8085;
 	width: 63%;
-    margin: auto;
+	margin: auto;
 }
 .tab-title{
 	margin-top: 17vh
@@ -191,7 +191,7 @@
 	text-align: center;
 	color: #2C2E30;
 	margin-bottom: 14px;
-	    margin-top: 2vh;
+	margin-top: 2vh;
 
 }
 .tab-policy .policy-flex div{
@@ -236,9 +236,9 @@
 }
 .content-tab-first{
 	margin: auto;
-    width: 80%;
-    padding-bottom: 2.5vh;
-    border-bottom: 1px solid #E7EAEE;
+	width: 80%;
+	padding-bottom: 2.5vh;
+	border-bottom: 1px solid #E7EAEE;
 }
 .content-tab-second{
 	margin: auto;
@@ -309,31 +309,31 @@
 	padding-top: 14vh;
 }
 .how .how-title h1{
-font-family: Aileron;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-text-align: center;
-color: #2C2E30;
-margin-bottom: 3vh
+	font-family: Aileron;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 41px;
+	text-align: center;
+	color: #2C2E30;
+	margin-bottom: 3vh
 }
 .how .how-title p{
 	font-family: Aileron;
-font-weight: 600;
-font-size: 18px;
-line-height: 34px;
-text-align: center;
-color: #7E8085;
-width: 63%;
-margin: auto;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #7E8085;
+	width: 63%;
+	margin: auto;
 }
 .how-img{
 	display: flex;
 	flex-wrap: wrap;
-	    margin-top: 11vh;
-	    margin-left: 9vw;
-    margin-right: 9vw;
-    border-bottom: 1px solid #E7EAEE;
+	margin-top: 11vh;
+	margin-left: 9vw;
+	margin-right: 9vw;
+	border-bottom: 1px solid #E7EAEE;
 }
 .img-size{
 	width: 30%
@@ -346,25 +346,25 @@ margin: auto;
 	margin: auto;
 }
 .stre-right img{
-		display: block;
+	display: block;
 	margin: auto;
 }
 .img-size h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 21px;
-line-height: 25px;
-text-align: center;
-color: #2C2E30;
-padding-top: 4vh
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 25px;
+	text-align: center;
+	color: #2C2E30;
+	padding-top: 4vh
 }
 .img-size p{
 	font-family: Aileron;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
-color: #7E8085;
-    margin-bottom: 16vh;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #7E8085;
+	margin-bottom: 16vh;
 
 }
 .stre-right{
@@ -373,8 +373,8 @@ color: #7E8085;
 .how-end{
 	display: flex;
 	flex-wrap: wrap;
-	    padding-left: 3vw;
-	    padding-bottom: 18vh
+	padding-left: 3vw;
+	padding-bottom: 18vh
 }
 .how-end .how-end-size{
 	width: 50%
@@ -386,24 +386,24 @@ color: #7E8085;
 }
 .how-end .how-end-size h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-color: #2C2E30;
-    margin-bottom: 4.5vh;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 41px;
+	color: #2C2E30;
+	margin-bottom: 4.5vh;
 
 }
 .how-end .how-end-size p{
 	font-family: Aileron;
-font-size: 16px;
-line-height: 28px;
-color: #54565A;
+	font-size: 16px;
+	line-height: 28px;
+	color: #54565A;
 }
 .how-end-size .right-size{
 	width: 77%
 }
 .how-end-right {
-	    padding-left: 7.5vw;
+	padding-left: 7.5vw;
 }
 .right-size .right-size-img{
 	display: flex;
@@ -415,10 +415,10 @@ color: #54565A;
 }
 .right-size a{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 18px;
-line-height: 34px;
-color: #2F5BEA;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	color: #2F5BEA;
 }
 .how-end-left{
 	padding-top: 18vh
@@ -457,8 +457,8 @@ color: #2F5BEA;
 		padding-top: 11vh
 	}
 	.how-end-right {
-    padding-top: 6vh;
-    padding-right: 7.5vw
+		padding-top: 6vh;
+		padding-right: 7.5vw
 	}
 }
 
@@ -472,31 +472,31 @@ color: #2F5BEA;
 }
 .testimonial-head-left h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-color: #2C2E30;
-margin-bottom: 6vh
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 41px;
+	color: #2C2E30;
+	margin-bottom: 6vh
 }
 .testimonial-head-left p{
-font-family: Aileron;
-font-size: 16px;
-line-height: 28px;/* or 175% */
-color: #54565A;
-    margin-bottom: 8vh;
+	font-family: Aileron;
+	font-size: 16px;
+	line-height: 28px;/* or 175% */
+	color: #54565A;
+	margin-bottom: 8vh;
 }
 .testimonial-head-left a{
-font-family: Aileron;
-font-weight: bold;
-font-size: 18px;
-line-height: 34px;
-color: #2F5BEA;
+	font-family: Aileron;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	color: #2F5BEA;
 }
 .testimonial-head{
 	display: flex;
 	flex-wrap: wrap;
-	    padding-left: 11vw;
-    padding-right: 11vw;
+	padding-left: 11vw;
+	padding-right: 11vw;
 }
 .testimonial-size{
 	width: 50%
@@ -517,36 +517,36 @@ color: #2F5BEA;
 }
 .testimonial-middle-title h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-text-align: center;
-color: #2C2E30;
-margin-bottom: 2.5vh
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 41px;
+	text-align: center;
+	color: #2C2E30;
+	margin-bottom: 2.5vh
 }
 .testimonial-middle-title p{
 	font-family: Aileron;
-font-weight: 600;
-font-size: 18px;
-line-height: 34px;/* or 189% */
-text-align: center;
-color: #7E8085;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 34px;/* or 189% */
+	text-align: center;
+	color: #7E8085;
 }
 .testimonial-middle-img{
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 7vw;
 	padding-right: 7vw;
-	    margin-top: 8vh;
+	margin-top: 8vh;
 }
 .testimonial-middle-img a{
-font-family: Aileron;
-font-weight: bold;
-font-size: 18px;
-line-height: 34px;
-margin: auto;
-color: #2F5BEA;
-margin-top: 5vh
+	font-family: Aileron;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	margin: auto;
+	color: #2F5BEA;
+	margin-top: 5vh
 }
 .middle-img-size{
 	width: 33.33333%;
@@ -565,13 +565,13 @@ margin-top: 5vh
 }
 @media screen and (max-width: 992px) {
 	.testimonial-size{
-	width: 100%
+		width: 100%
 	}
 	.testimonial-head-left{
-	padding-top: 10vh
+		padding-top: 10vh
 	}
 	.testimonial-head-right{
-	padding-top: 9vh
+		padding-top: 9vh
 	}
 	.testimonial-head-left h1{
 		margin-bottom: 4vh
@@ -587,8 +587,8 @@ margin-top: 5vh
 		width: 100%
 	}
 	.middle-img-size{
-	width: 100%;
-	margin-bottom: 1vh
+		width: 100%;
+		margin-bottom: 1vh
 	}
 	.brands{
 		display: none;
@@ -596,28 +596,28 @@ margin-top: 5vh
 }
 /*---------- Price ----------*/
 .price{
-background-color: #F6F8F9;
-padding-bottom: 15vh
+	background-color: #F6F8F9;
+	padding-bottom: 15vh
 }
 .price-title h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-text-align: center;
-color: #2C2E30;
-margin-bottom: 2.5vh;
-padding-top: 15vh;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 41px;
+	text-align: center;
+	color: #2C2E30;
+	margin-bottom: 2.5vh;
+	padding-top: 15vh;
 }
 .price-title p{
 	font-family: Aileron;
-font-weight: 600;
-font-size: 18px;
-line-height: 34px;
-text-align: center;
-color: #7E8085;
-    width: 43%;
-    margin: auto;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #7E8085;
+	width: 43%;
+	margin: auto;
 }
 .price-img{
 	display: flex;
@@ -625,7 +625,7 @@ color: #7E8085;
 }
 .price-img-size{
 	width: 50%;
-	    padding: 2vw;
+	padding: 2vw;
 }
 .price-img-size img{
 	display: block;
@@ -637,19 +637,19 @@ color: #7E8085;
 }
 .price-end p{
 	font-family: Aileron;
-font-size: 18px;
-line-height: 34px;
-text-align: center;
-color: #7E8085;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #7E8085;
 }
 .price-end{
-font-family: Aileron;
-font-weight: bold;
-font-size: 18px;
-line-height: 34px;
-text-align: center;
-color: #2C2E30;
-margin-top: 2.5vh
+	font-family: Aileron;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #2C2E30;
+	margin-top: 2.5vh
 }
 @media screen and (max-width: 992px){
 	.price-title p{
@@ -668,41 +668,41 @@ margin-top: 2.5vh
 /*---------- CTA ----------*/
 .CTA{
 	background-image: url('Group 2.png');
-		background-repeat: repeat-x;
-		padding-bottom: 17vh
+	background-repeat: repeat-x;
+	padding-bottom: 17vh
 }
 .CTA-content h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 34px;
-line-height: 41px;
-text-align: center;
-color: #FFFFFF;
-padding-top: 15vh;
-padding-bottom: 3vh;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 41px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 15vh;
+	padding-bottom: 3vh;
 }
 .CTA-content p{
 	font-family: Aileron;
-font-weight: 600;
-font-size: 18px;
-line-height: 34px;
-text-align: center;
-color: #FFFFFF;
-padding-bottom: 8vh;
-width: 43%;
-margin: auto;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-bottom: 8vh;
+	width: 43%;
+	margin: auto;
 }
 .CTA-content button{
 	background: #FFFFFF;
-border-radius: 5px;
-font-family: Aileron;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-text-transform: uppercase;
-color: #2F5BEA;
-height: 50px;
+	border-radius: 5px;
+	font-family: Aileron;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2F5BEA;
+	height: 50px;
 	width: 170px;
 	border: none;
 	display: block;
@@ -725,16 +725,16 @@ height: 50px;
 }
 .footer h1{
 	font-family: Aileron;
-font-weight: bold;
-font-size: 18px;
-line-height: 22px;/* identical to box height */
-color: #2C2E30;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;/* identical to box height */
+	color: #2C2E30;
 }
 .footer p{
 	font-family: Aileron;
-font-size: 16px;
-line-height: 30px;/* or 244% */
-color: #54565A;
+	font-size: 16px;
+	line-height: 30px;/* or 244% */
+	color: #54565A;
 }
 .footer-main{
 	display: flex;
@@ -751,20 +751,20 @@ color: #54565A;
 	position: relative;
 }
 .footer-logo img{
-	    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 .footer-content{
 	width: 33.3333%
 }
 @media screen and (max-width: 992px){
 	.footer-main{
-			padding-top: 9vh;
-	padding-bottom: 6vh
+		padding-top: 9vh;
+		padding-bottom: 6vh
 	}
 	.footer-size{
 		width: 100%
