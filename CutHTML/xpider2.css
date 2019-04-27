@@ -668,7 +668,113 @@ margin-top: 2.5vh
 /*---------- CTA ----------*/
 .CTA{
 	background-image: url('Group 2.png');
-		background-repeat: no-repeat;
-	background-position: 12vw top;
-	padding-bottom: 15.5vh
+		background-repeat: repeat-x;
+		padding-bottom: 17vh
+}
+.CTA-content h1{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 15vh;
+padding-bottom: 3vh;
+}
+.CTA-content p{
+	font-family: Aileron;
+font-weight: 600;
+font-size: 18px;
+line-height: 34px;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 8vh;
+width: 43%;
+margin: auto;
+}
+.CTA-content button{
+	background: #FFFFFF;
+border-radius: 5px;
+font-family: Aileron;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+text-transform: uppercase;
+color: #2F5BEA;
+height: 50px;
+	width: 170px;
+	border: none;
+	display: block;
+	margin: auto;
+}
+.CTA-content button:hover{
+	opacity: 0.85
+}
+@media screen and (max-width: 992px){
+	.CTA-content p{
+		width: 85%
+	}
+}
+/*---------- Footer ----------*/
+.footer{
+	background-image: url('net.png');
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: left top;
+}
+.footer h1{
+	font-family: Aileron;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;/* identical to box height */
+color: #2C2E30;
+}
+.footer p{
+	font-family: Aileron;
+font-size: 16px;
+line-height: 30px;/* or 244% */
+color: #54565A;
+}
+.footer-main{
+	display: flex;
+	padding-top: 13vh;
+	padding-bottom: 14vh
+}
+.footer-size{
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%
+}
+.footer-logo{
+	width: 40%;
+	position: relative;
+}
+.footer-logo img{
+	    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer-content{
+	width: 33.3333%
+}
+@media screen and (max-width: 992px){
+	.footer-main{
+			padding-top: 9vh;
+	padding-bottom: 6vh
+	}
+	.footer-size{
+		width: 100%
+	}
+	.footer-content{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 4vh
+	}
+	.footer-logo{
+		display: none;
+	}
 }
