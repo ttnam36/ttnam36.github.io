@@ -23,7 +23,6 @@
 	line-height: 32px;
 	text-align: center;
 	color: white;
-	margin-bottom: 43px
 }
 .banner-container {
 	position: relative;
@@ -40,6 +39,7 @@
 .banner-textbox {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 43px
 }
 .textbox {
 	margin: auto
@@ -66,13 +66,37 @@
 	border-radius: 4px;
 	border: none;
 }
+@media screen and (max-width: 768px) {
+	.banner-content h1 {
+		font-size: 35px
+	}
+	.banner-content p {
+		font-size: 14px;
+		width: 80%;
+		margin: auto;
+	}
+	.banner-textbox button {
+		height: 40px
+	}
+	.banner-textbox input {
+		height: 40px
+	}
+	.banner-textbox {
+		margin-top: 18px
+	}
+}
 
 .section-1 {
 	margin: auto;
-	display: flex;
 	margin-top: 117px;
 	padding-left: 7vw;
     padding-right: 7vw;
+
+}
+.section1-main {
+	display: flex;
+	border-bottom: 1px solid #E2E2E2;
+padding-bottom: 110px
 }
 .section1-left {
 	width: 50%;
@@ -113,4 +137,73 @@ color: #6C6C6C;
 }
 .section1-right img {
 	width: 100%
+}
+@media screen and (max-width: 992px) {
+	.section-1 {
+		margin-top: 50px;
+	}
+	.section1-main {
+				flex-wrap: wrap;
+	padding-bottom: 40px
+	}
+	.section1-left h1 {
+		font-size: 28px
+	}
+	.section1-text1 p, .section1-text2 p {
+		font-size: 14px;
+	}
+	.section1-left {
+		width: 100%;
+		margin-right: 0
+	}
+	.section1-right {
+		width: 100%
+	}
+	.section1-text1 {
+		margin-top: 28px
+	}
+	.section1-text1, .section1-text2 {
+		width: 100%
+	}
+}
+.section-2 {
+	margin-top: 82px
+}
+.item h1 {
+	font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #414141;
+}
+.item p {
+	font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #6C6C6C;
+}
+.item img {
+	display: block;
+	margin: auto;
+}
+.section2-main {
+	display: flex;
+	padding-left: 7vw;
+    padding-right: 7vw;
+        justify-content: space-between;
+}
+.item {
+	width: 31%
+}
+@media screen and (max-width: 992px) {
+	.section-2 {
+		margin-top: 50px
+	}
+	.section2-main {
+		flex-wrap: wrap;
+	}
+	.item {
+		width: 100%
+	}
 }
