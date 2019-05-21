@@ -66,3 +66,51 @@
 	border-radius: 4px;
 	border: none;
 }
+
+.section-1 {
+	margin: auto;
+	display: flex;
+	margin-top: 117px;
+	padding-left: 7vw;
+    padding-right: 7vw;
+}
+.section1-left {
+	width: 50%;
+	margin-right: 60px
+}
+.section1-right {
+	width: 50%
+}
+.section1-left h1 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 51px;
+	color: #414141;
+}
+.section1-text1, .section1-text2 {
+	width: 75%;
+}
+.section1-text1 h2, .section1-text2 h2 {
+	font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #414141;
+}
+.section1-text1 p, .section1-text2 p {
+	font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+color: #6C6C6C;
+}
+.section1-text1 {
+	margin-top: 57px;
+}
+.section1-text2 {
+	margin-top: 29px;
+}
+.section1-right {
+	padding-top: 27px
+}
+.section1-right img {
+	width: 100%
+}
