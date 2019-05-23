@@ -146,12 +146,6 @@ color: #6C6C6C;
 				flex-wrap: wrap;
 	padding-bottom: 40px
 	}
-	.section1-left h1 {
-		font-size: 28px
-	}
-	.section1-text1 p, .section1-text2 p {
-		font-size: 14px;
-	}
 	.section1-left {
 		width: 100%;
 		margin-right: 0
@@ -204,6 +198,162 @@ color: #6C6C6C;
 		flex-wrap: wrap;
 	}
 	.item {
+		width: 100%;
+		margin-bottom: 24px
+	}
+}
+
+.testimonial {
+	background-color: #F6FAFD;
+	margin-top: 130px;
+}
+.testimonial-layout {
+	padding-top: 34px;
+	display: flex;
+	width: 73%;
+	margin: auto;
+}
+.testimonial-img {
+	margin-right: 53px
+}
+.testimonial-text p {
+	font-size: 24px;
+	line-height: 40px;
+	color: #414141;
+	margin-top: 173px
+}
+.testimonial-text h2 {
+	font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #414141;
+margin-top: 30px
+}
+.testimonial-text h3 {
+	font-size: 20px;
+line-height: 24px;
+color: #414141;
+}
+@media screen and (max-width: 1200px) {
+	.testimonial-layout {
+		width: 85%	
+	}
+} 
+@media screen and (max-width: 992px) {
+	.testimonial {
+		margin-top: 64px;
+		padding-bottom: 36px
+	}
+	.testimonial-layout {
+		flex-wrap: wrap;
+	}
+	.testimonial-img {
+		width: 100%;
+		margin-right: 0
+	}
+	.testimonial-img img {
+		display: block;
+		margin: auto;
+	}
+	.testimonial-text {
 		width: 100%
 	}
+	.testimonial-text p {
+		margin-top: 58px
+	}
+} 
+
+.plans {
+	margin-top: 115px
+}
+.plans-text h1 {
+	font-weight: bold;
+font-size: 36px;
+line-height: 51px;
+text-align: center;
+color: #414141;
+}
+.plans-text p {
+	font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #6C6C6C;
+width: 45%;
+margin: auto;
+}
+.plans-img {
+	display: flex;
+	width: 85%;
+    margin: auto;
+    padding-top: 63px
+}
+.plans-img div:nth-child(1) {
+	margin-left: auto;
+}
+.plans-img div:nth-child(2) {
+	margin-right: auto;
+}
+.plans-img div:nth-child(1) img {
+	max-width: 100%
+}
+.plans-img div:nth-child(2) img {
+	max-width: 100%
+}
+@media screen and (max-width: 768px) {
+	.plans-img {
+		flex-wrap: wrap;
+	}
+	.plans-img div:nth-child(1) {
+		width: 100%
+	}
+	.plans-img div:nth-child(2) {
+		width: 100%
+	}
+	.plans-img div:nth-child(1) img {
+		display: block;
+		margin: auto;
+	}
+	.plans-img div:nth-child(2) img {
+		display: block;
+		margin: auto;
+	}
+} 
+
+.section-3 {
+	background: linear-gradient(90deg, #FE985B 2.77%, #FE4FA7 100%);
+	padding-top: 120px;
+	padding-bottom: 120px
+}
+.section3-text h1 {
+font-weight: bold;
+font-size: 55px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 28px;
+}
+.section3-text p {
+	font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+    width: 40%;
+    margin: auto;
+}
+.section3-text {
+	margin-bottom: 45px
+}
+.section3-btn button{
+width: 192px;
+height: 53px;
+background: white;
+border-radius: 4px;
+border: none;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #464646;
+display: block;
+margin: auto;
 }
