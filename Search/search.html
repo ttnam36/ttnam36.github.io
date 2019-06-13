@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style type="text/css">
+		html, body { 
+			padding: 0;
+			margin: 0 
+		}
+		* { box-sizing: border-box; }
+		.search-box {
+			width: 280px;
+			height: 40px;
+			margin: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0
+		}
+		.container-1 {
+			width: 280px;
+			height: 40px;
+			vertical-align: middle;
+			white-space: nowrap;
+			position: relative;
+		}
+		.container-1 input {
+			width: 280px;
+			height: 40px;
+			background: #e9ebee;
+			border: none;
+			font-size: 10pt;
+			float: left;
+			color: #63717f;
+			padding-left: 45px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			-webkit-transition: background .55s ease;
+			transition: background .55s ease;
+		}
+		.container-1 .icon-search {
+			position: absolute;
+			top: 11.5px;
+			left: 16px;
+			color: #63717f;
+		}
+		.container-1 .icon-micro {
+			position: absolute;
+			top: 11.5px;
+			right: 16px;
+			color: #63717f;
+		}
+		.container-1 input#search:focus, .container-1 input#search:active {
+			outline:none;
+			background: #2d303a;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="search-box">
+		<div class="container-1">
+			<span class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></span>
+			<input type="search" id="search" placeholder="Search" />
+			<span class="icon-micro"><i class="fa fa-microphone" aria-hidden="true"></i></span>
+		</div>
+	</div>
+</body>
+
+</html>

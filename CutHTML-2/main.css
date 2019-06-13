@@ -254,6 +254,8 @@ color: #414141;
 	.testimonial-img img {
 		display: block;
 		margin: auto;
+		    max-width: 100%;
+
 	}
 	.testimonial-text {
 		width: 100%
