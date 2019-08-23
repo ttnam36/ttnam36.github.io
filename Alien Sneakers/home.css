@@ -66,6 +66,7 @@
 		margin-right: 0
 	}
 }
+/*---------- Carousel ----------*/
 .carousel-item {
 	width: 100%
 }
@@ -88,4 +89,38 @@
     height: 15px;
     border: 1px solid white;
     margin-top: 8px;
+}
+/*---------- Policy ----------*/
+.container-policy {
+	display: flex;
+	margin-top: 5vh
+}
+.container-policy .policy img {
+	width: 64px;
+	display: block;
+	margin: auto;
+}
+.container-policy .policy h5 {
+	text-align: center;
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.container-policy .policy p {
+	text-align: center;
+	padding: 0 20px 0 20px
+}
+.policy {
+	width: 20%
+}
+/*---------- Hot Events ----------*/
+.hot-events {
+	display: flex;
+}
+.hot-events div {
+	width: 30%;
+	margin: auto;
+}
+.hot-events div a img {
+	max-width: 100%
 }
