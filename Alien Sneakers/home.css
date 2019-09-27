@@ -93,7 +93,7 @@
 /*---------- Policy ----------*/
 .container-policy {
 	display: flex;
-	margin-top: 5vh
+	margin-top: 8vh
 }
 .container-policy .policy img {
 	width: 64px;
@@ -116,6 +116,8 @@
 /*---------- Hot Events ----------*/
 .hot-events {
 	display: flex;
+	padding: 2.5vh 0;
+    background: #f7f7f7;
 }
 .hot-events div {
 	width: 30%;
@@ -123,4 +125,114 @@
 }
 .hot-events div a img {
 	max-width: 100%
+}
+/*---------- Products ----------*/
+.products {
+	margin-top: 8vh;
+}
+.products .products-headline {
+	text-align: center;
+}
+.products .products-headline p {
+	margin-top: 3vh;
+}
+.products-list {
+	margin-top: 7vh;
+}
+.products-row1 {
+	display: flex;
+	padding: 0 4vw; /* 0 55px */
+}
+.products-row2 {
+	display: flex;
+	padding: 0 4vw; /* 0 55px */
+	margin-top: 8vh;
+}
+ .products-row1 .products-list-row1, .products-row2 .products-list-row2 {
+	width: 22%;
+	margin: auto;
+}
+.products-row1 .products-list-row1 a img {
+	max-width: 100%
+}
+.products-row2 .products-list-row2 a img {
+	max-width: 100%
+}
+.brand-rating {
+	display: flex;
+	padding: 4px 9px 4px 9px;
+}
+.brand-rating div h5 {
+	font-size: 15px;
+	line-height: 18px;
+	margin-top: 6px;
+	color: #767677;
+	text-transform: uppercase;
+
+}
+.brand-rating .rating {
+	margin-left: auto;
+}
+.caption h4 {
+	font-size: 15px;
+	font-weight: 550;
+	text-transform: uppercase;
+	color: #303030;
+	border-top: 1px solid #C4C4C4;
+	padding: 11px 9px 0px 9px;
+}
+.caption p {
+	font-size: 15px;
+	line-height: 18px;
+	color: #E63F3F;
+	font-weight: 500;
+	padding: 0 9px 0 9px;
+}
+.products-list-row1, .products-list-row2 {
+	background: #F3F3F3;
+}
+.btn-more {
+	margin-top: 4.5vh;
+}
+.btn-more button {
+	display: block;
+	margin: auto;
+	border: none;
+	padding: 8px 32px;
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	color: #FCFCFC;
+}
+
+/*---------- DEAL ----------*/
+.deal {
+	margin-top: 7vh;
+	margin-bottom: 8vh
+}
+.parallax {
+    background: transparent;
+}
+.deal-info {
+	position: relative;
+	text-align: center;
+	z-index: 2;
+	font-size: 75px;
+	font-family: rubik;
+	font-weight: 500;
+	line-height: 89px;
+	color: #FFFFFF;
+	padding-bottom: 200px;
+}
+
+/*---------- NEW PRODUCT ----------*/
+.just-launched .products-headline {
+	text-align: center;
+}
+.just-launched .products-headline p {
+	margin-top: 3vh;
 }
