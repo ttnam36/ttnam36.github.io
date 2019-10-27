@@ -215,7 +215,10 @@
 	margin-bottom: 8vh
 }
 .parallax {
-    background: transparent;
+    background: url('28430068_593046514374013_3729865624092934144_n.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
 }
 .deal-info {
 	position: relative;
@@ -226,13 +229,115 @@
 	font-weight: 500;
 	line-height: 89px;
 	color: #FFFFFF;
-	padding-bottom: 200px;
+	padding-bottom: 300px;
 }
 
 /*---------- NEW PRODUCT ----------*/
+.just-launched {
+	padding: 0 6vw;
+	margin-bottom: 8vh
+}
 .just-launched .products-headline {
 	text-align: center;
 }
 .just-launched .products-headline p {
 	margin-top: 3vh;
+}
+.owl-item {
+	background: #F3F3F3;
+}
+.owl-prev {
+	position: absolute;
+    left: -50px;
+    top: calc(50% - 70px);
+}
+.owl-next {
+	position: absolute;
+    right: -50px;
+    top: calc(50% - 70px);	
+}
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+@media screen and (max-width: 900px) {
+	.owl-theme .owl-nav {
+		display: none;
+	}
+}
+@media screen and (min-width: 900px) {
+	.owl-theme .owl-dots {
+		display: none;
+	}
+}
+
+/*---------- ON SALE PRODUCT ----------*/
+.on-sale {
+	padding: 0 6vw;
+	margin-bottom: 8vh;
+}
+.on-sale .products-headline {
+	text-align: center;
+}
+.on-sale .products-headline p {
+	margin-top: 3vh;
+}
+.sale-tag {
+	position: absolute;
+	font-family: Rubik;
+	padding: 3px 4px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    background: #E63F3F;
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #E63F3F;
+    left: 0;
+    top: 0;
+}
+
+/*---------- FEEDBACK GALLERY ---------*/
+.wp-feedback h1 {
+	font-family: rubik;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: 0.18em;
+	color: #000000;
+	margin-bottom: 0;
+}
+.wp-feedback p {
+	font-family: rubik;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.05em;
+	color: #000000;
+}
+.feedback-gallery .row1 {
+	display: flex;
+}
+.feedback-gallery .row1 a {
+	width: 20%
+}
+.feedback-gallery .row2 {
+	display: flex;
+}
+.feedback-gallery .row2 a {
+	width: 20%
+}
+.feedback-gallery img {
+	max-width: 100%
+}
+@media screen and (max-width: 900px) {
+	.feedback-gallery .row1 a {
+	width: 33.3333%
+	}
+	.feedback-gallery .row2 a {
+	width: 33.3333%
+	}
 }
