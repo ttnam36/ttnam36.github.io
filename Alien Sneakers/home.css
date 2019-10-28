@@ -133,8 +133,21 @@
 .products .products-headline {
 	text-align: center;
 }
+.products .products-headline h1 {
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 33px;
+	letter-spacing: 0.01em;
+	color: #303030;
+}
 .products .products-headline p {
 	margin-top: 3vh;
+	font-family: Rubik;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: #737373;
 }
 .products-list {
 	margin-top: 7vh;
@@ -240,8 +253,21 @@
 .just-launched .products-headline {
 	text-align: center;
 }
+.just-launched .products-headline h1 {
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 33px;
+	letter-spacing: 0.01em;
+	color: #303030;
+}
 .just-launched .products-headline p {
 	margin-top: 3vh;
+	font-family: Rubik;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: #737373;
 }
 .owl-item {
 	background: #F3F3F3;
@@ -278,8 +304,21 @@
 .on-sale .products-headline {
 	text-align: center;
 }
+.on-sale .products-headline h1 {
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 33px;
+	letter-spacing: 0.01em;
+	color: #303030;
+}
 .on-sale .products-headline p {
 	margin-top: 3vh;
+	font-family: Rubik;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	letter-spacing: -0.01em;
+	color: #737373;
 }
 .sale-tag {
 	position: absolute;
@@ -299,7 +338,13 @@
 }
 
 /*---------- FEEDBACK GALLERY ---------*/
-.wp-feedback h1 {
+.wp-feedback {
+	background: #F0F0F0;
+	padding-top: 6vh;
+	padding-bottom: 6.5vh;
+	margin-bottom: 8vh;
+}
+.wp-feedback .feedback-headline h1 {
 	font-family: rubik;
 	text-align: center;
 	font-weight: bold;
@@ -309,35 +354,57 @@
 	color: #000000;
 	margin-bottom: 0;
 }
-.wp-feedback p {
+.wp-feedback .feedback-headline p {
 	font-family: rubik;
 	text-align: center;
 	font-weight: 500;
 	font-size: 15px;
-	line-height: 18px;
-	letter-spacing: 0.05em;
-	color: #000000;
+	line-height: 14px;
+	letter-spacing: -0.01em;
+	color: #737373;
+}
+.feedback-headline {
+	margin-bottom: 5vh;
 }
 .feedback-gallery .row1 {
 	display: flex;
-}
-.feedback-gallery .row1 a {
-	width: 20%
+	flex-wrap: wrap;
 }
 .feedback-gallery .row2 {
 	display: flex;
+	flex-wrap: wrap;
 }
-.feedback-gallery .row2 a {
-	width: 20%
+.feedback-gallery .gallery-item {
+	width: 16.66666%;
+	margin: auto;
+}
+.feedback-gallery {
+	padding: 0 4vw;
 }
 .feedback-gallery img {
 	max-width: 100%
 }
 @media screen and (max-width: 900px) {
-	.feedback-gallery .row1 a {
-	width: 33.3333%
+	.feedback-gallery .gallery-item{
+	width: 33.3333%;
 	}
-	.feedback-gallery .row2 a {
-	width: 33.3333%
-	}
+}
+
+/*---------- NEWS ----------*/
+.news-headline h1 {
+	text-align: center;
+	font-family: Roboto;
+	font-weight: 500;
+	line-height: 33px;
+	letter-spacing: 0.01em;
+	color: #303030;
+}
+.news-headline p {
+	text-align: center;
+	font-family: Rubik;
+	margin-top: 3vh;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: -0.01em;
+	color: #737373;
 }
