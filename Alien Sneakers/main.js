@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
+  $('.owl-one').owlCarousel({
     loop:true,
     margin:25,
     nav:true,
@@ -15,5 +15,23 @@ $(document).ready(function(){
             items:4
         }
     }
-	})
+	});
 });
+$(document).ready(function(){
+  $('.owl-two').owlCarousel({
+    loop:true,
+    margin:60,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:2
+        },
+        900:{
+            items:3
+        }
+    }
+	});
+});
+
