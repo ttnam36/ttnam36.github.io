@@ -93,7 +93,8 @@
 /*---------- Policy ----------*/
 .container-policy {
 	display: flex;
-	margin-top: 8vh
+	margin-top: 8vh;
+	flex-wrap: wrap;
 }
 .container-policy .policy img {
 	width: 64px;
@@ -105,26 +106,73 @@
 	font-size: 15px;
 	line-height: 18px;
 	text-transform: uppercase;
+	margin-top: 15px;
 }
 .container-policy .policy p {
 	text-align: center;
-	padding: 0 20px 0 20px
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+    font-weight: 300;
+    color: #737373;
 }
 .policy {
 	width: 20%
 }
+@media screen and (max-width: 991px) {
+	.policy {
+		width: 33.3333%;
+	}
+	.i-discount {
+		width: 50%;
+	}
+	.i-credit {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.policy {
+		width: 50%;
+	}
+	.i-credit {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.policy {
+		width: 100%;
+	}
+}
 /*---------- Hot Events ----------*/
+.wp-events {
+	background: #f7f7f7;
+	padding: 3.5vh 1vw;
+}
 .hot-events {
 	display: flex;
-	padding: 2.5vh 0;
-    background: #f7f7f7;
 }
-.hot-events div {
-	width: 30%;
-	margin: auto;
+.hot-events .events-flex {
+	width: 33.3333%;
+	margin: 0 1.5vw 0 1.5vw;
 }
-.hot-events div a img {
-	max-width: 100%
+.hot-events .events-flex a img {
+	width: 100%;
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 768px) {
+	.hot-events {
+		flex-wrap: wrap;
+	}
+	.hot-events .events-flex {
+		width: 100%;
+	}
+	.hot-events .events-flex a img {
+		width: 85%;
+	}
+	.hot-events .campaign {
+		margin-top: 3vh;
+		margin-bottom: 3vh;
+	}
 }
 /*---------- Products ----------*/
 .products {
@@ -135,13 +183,15 @@
 }
 .products .products-headline h1 {
 	font-family: Roboto;
+	margin-bottom: 3.5vh;
 	font-weight: 500;
 	line-height: 33px;
 	letter-spacing: 0.01em;
 	color: #303030;
 }
 .products .products-headline p {
-	margin-top: 3vh;
+	width: 49%;
+    margin: auto;
 	font-family: Rubik;
 	font-size: 15px;
 	line-height: 18px;
@@ -159,11 +209,12 @@
 .products-row2 {
 	display: flex;
 	padding: 0 4vw; /* 0 55px */
-	margin-top: 8vh;
+	margin-top: 6vh;
 }
- .products-row1 .products-list-row1, .products-row2 .products-list-row2 {
-	width: 22%;
-	margin: auto;
+.products-row1 .products-list-row1, .products-row2 .products-list-row2 {
+	width: 25%;
+	margin: 1.5vw;
+	overflow: hidden;
 }
 .products-row1 .products-list-row1 a img {
 	max-width: 100%
@@ -193,6 +244,10 @@
 	color: #303030;
 	border-top: 1px solid #C4C4C4;
 	padding: 11px 9px 0px 9px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  	overflow: hidden;
+
 }
 .caption p {
 	font-size: 15px;
@@ -220,6 +275,22 @@
 	line-height: 18px;
 	text-align: center;
 	color: #FCFCFC;
+}
+@media screen and (max-width: 991px) {
+	.products .products-headline p {
+		width: 75%;
+	}
+	.products-row1, .products-row2 {
+		flex-wrap: wrap;
+	}
+	.products-row1 .products-list-row1, .products-row2 .products-list-row2 {
+		width: 33.3333%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.products .products-headline p {
+		width: 90%;
+	}
 }
 
 /*---------- DEAL ----------*/
@@ -259,15 +330,20 @@
 	line-height: 33px;
 	letter-spacing: 0.01em;
 	color: #303030;
+	margin-bottom: 3.5vh;
 }
 .just-launched .products-headline p {
-	margin-top: 3vh;
+	width: 55%;
+    margin: auto;
 	font-family: Rubik;
 	font-size: 15px;
 	line-height: 18px;
 	text-align: center;
 	letter-spacing: -0.01em;
 	color: #737373;
+}
+.just-launched-slider {
+	margin-top: 7vh;
 }
 .on-sale-slider .owl-item, .just-launched-slider .owl-item {
 	background: #F3F3F3;
@@ -298,11 +374,28 @@
 		display: none;
 	}
 }
+@media screen and (max-width: 991px) {
+	.just-launched .products-headline p {
+		width: 75%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.just-launched .products-headline p {
+		width: 90%;
+	}
+}
 
 /*---------- ON SALE PRODUCT ----------*/
 .on-sale {
 	padding: 0 6vw;
 	margin-bottom: 8vh;
+}
+.on-sale {
+	padding: 0 6vw; 
+	margin-bottom: 8vh;
+}
+.on-sale-slider {
+	margin-top: 7vh;
 }
 .on-sale .products-headline {
 	text-align: center;
@@ -313,9 +406,11 @@
 	line-height: 33px;
 	letter-spacing: 0.01em;
 	color: #303030;
+	margin-bottom: 3.5vh;
 }
 .on-sale .products-headline p {
-	margin-top: 3vh;
+	width: 55%;
+    margin: auto;
 	font-family: Rubik;
 	font-size: 15px;
 	line-height: 18px;
@@ -339,7 +434,16 @@
     left: 0;
     top: 0;
 }
-
+@media screen and (max-width: 991px) {
+	.on-sale .products-headline p {
+		width: 75%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.on-sale .products-headline p {
+		width: 90%;
+	}
+}
 /*---------- FEEDBACK GALLERY ---------*/
 .wp-feedback {
 	background: #F0F0F0;
@@ -351,7 +455,7 @@
 	font-family: rubik;
 	text-align: center;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 36px;
 	letter-spacing: 0.18em;
 	color: #000000;
@@ -398,6 +502,9 @@
 	padding: 0 5vw;
 	font-family: roboto;
 }
+.news-gallery {
+	margin-top: 7vh;
+}
 .news-headline h1 {
 	text-align: center;
 	font-family: Roboto;
@@ -405,11 +512,13 @@
 	line-height: 33px;
 	letter-spacing: 0.01em;
 	color: #303030;
+	margin-bottom: 3.5vh;
 }
 .news-headline p {
+	width: 55%;
+    margin: auto;
 	text-align: center;
 	font-family: Rubik;
-	margin-top: 3vh;
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: -0.01em;
@@ -440,6 +549,16 @@
 }
 .news-content .admin-date div:nth-child(2) {
 	margin-left: auto;
+}
+@media screen and (max-width: 991px) {
+	.news-headline p {
+		width: 75%;
+	}
+}
+@media screen and (max-width: 640px) {
+	.news-headline p {
+		width: 90%;
+	}
 }
 
 /*---------- FOOTER ----------*/
