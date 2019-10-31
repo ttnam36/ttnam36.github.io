@@ -20,7 +20,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.owl-two').owlCarousel({
     loop:true,
-    margin:60,
+    margin: 25,
     responsive:{
         0:{
             items:2

@@ -538,7 +538,7 @@
 
 /*---------- NEWS ----------*/
 .wp-news {
-	padding: 0 5vw;
+	padding: 0 6vw;
 	font-family: roboto;
 }
 .news-gallery {
@@ -649,4 +649,8 @@ footer {
 	font-size: 13px;
 	color: #6F6F6F;
 	margin-top: 3vh;
+}
+
+.owl-two .owl-item {
+	margin-right: 
 }
