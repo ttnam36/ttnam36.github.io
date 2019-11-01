@@ -231,7 +231,7 @@
 	padding: 4px 9px 4px 9px;
 }
 .brand-rating div h5 {
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 18px;
 	margin-top: 6px;
 	color: #767677;
@@ -616,6 +616,7 @@ footer {
 	font-size: 17px;
 	line-height: 20px;
 	color: #FFFFFF;
+	margin-bottom: 5vh;
 }
 .wp-footer p {
 	font-size: 15px;
