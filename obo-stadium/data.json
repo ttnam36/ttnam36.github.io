@@ -1,5 +1,29 @@
 let productData = [
-  
+  {
+    "id": "b4b377ea-8688-4650-be3e-8580d554c6f2",
+    "sell_price": 18600000,
+    "buy_price": 19700000,
+    "total_sold": 1687,
+    "release_date": "1549773617",
+    "retail_price": 2358150,
+    "brand": "Asics",
+    "gender": "Female",
+    "status": "Best Seller",
+    "available_size": [
+      46,
+      38.5,
+      51.5,
+      44.5,
+      42,
+      40.5,
+      48.5,
+      47.5,
+      42.5,
+      41
+    ],
+    "thumbnail": "./image/product/asics/Asics-Gel-Lyte-III-Afew-Koi.jpg",
+    "name": "ASICS Gel-Lyte III Afew Koi"
+  },
   {
     "id": "8da18960-5979-48ec-8df4-ca2d197812d7",
     "sell_price": 38876805,
