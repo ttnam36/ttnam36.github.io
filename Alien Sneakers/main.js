@@ -3,7 +3,7 @@ $(document).ready(function(){
     loop:true,
     margin:25,
     nav:true,
-    navText: ["<img src='prev.png'>","<img src='next.png'>"],
+    navText: ["<img src='img/prev.png'>","<img src='img/next.png'>"],
     responsive:{
         0:{
             items:2
