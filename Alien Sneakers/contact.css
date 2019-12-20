@@ -1,0 +1,156 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/*---------- Menu ----------*/
+.navbar-brand {
+	margin-left: 5vw;
+}
+.navbar-brand img {
+	max-height: 74px;
+}
+.bg-light {
+	background-color: white!important;
+}
+.nav-icon a img {
+	width: 20px;
+	padding-right: 1px;
+	margin-bottom: 5px
+}
+.navbar-nav {
+	margin-left: auto;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-icon {
+	margin-right: 5vw
+}
+.nav-item {
+	margin: 0 4px 0 4px
+}
+.nav-link {
+	color: black!important
+}
+.hvr-underline-from-center {
+	display: inline-block;
+	vertical-align: middle;
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+}
+.hvr-underline-from-center:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 51%;
+	right: 51%;
+	bottom: 0;
+	background: #2098D1;
+	height: 4px;
+	transition-property: left, right;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+	left: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 1080px) {
+	.navbar-brand {
+		margin-left: 0
+	}
+	.navbar-icon {
+		margin-right: 0
+	}
+}
+/*---------- Carousel ----------*/
+.carousel-item {
+	width: 100%
+}
+.w-100 {
+	max-width: auto!important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	width: 36px;
+	height: 36px
+}
+.carousel-indicators li {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #EB3E32!important;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    margin-top: 8px;
+}
+/*---------- Policy ----------*/
+.container-policy {
+	display: flex;
+	margin-top: 8vh;
+	flex-wrap: wrap;
+}
+.container-policy .policy img {
+	width: 64px;
+	display: block;
+	margin: auto;
+}
+.container-policy .policy h5 {
+	text-align: center;
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.container-policy .policy p {
+	text-align: center;
+	padding: 0 20px 0 20px;
+	font-size: 14px;
+    font-weight: 300;
+    color: #737373;
+}
+.policy {
+	width: 20%
+}
+@media screen and (max-width: 991px) {
+	.policy {
+		width: 33.3333%;
+	}
+	.i-discount {
+		width: 50%;
+	}
+	.i-credit {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.policy {
+		width: 50%;
+	}
+	.i-credit {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.policy {
+		width: 100%;
+	}
+}
+
+/*---------- BREADCUMBS NAV ----------*/
+
+/*---------- CONTACT -----------*/
+.contact-main {
+	margin-top: 7vh;
+	display: flex;
+	padding: 0 4.5vw;
+}
+.contact-main .contact-box {
+	margin-right: 7vw;
+}
